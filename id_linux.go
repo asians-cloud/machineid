@@ -2,6 +2,8 @@
 
 package machineid
 
+import "errors"
+
 const (
 	// dbusPath is the default path for dbus machine id.
 	dbusPath = "/var/lib/dbus/machine-id"
@@ -22,6 +24,10 @@ func machineID() (string, error) {
 	}
 	if err != nil {
 		return "", err
+	}
+
+	if trim(string(id)) == "" {
+		return "", errors.New("All known machineid file are empty")
 	}
 	return trim(string(id)), nil
 }
