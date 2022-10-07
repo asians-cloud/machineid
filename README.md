@@ -31,7 +31,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/crowdsecurity/machineid"
 )
 
 func main() {
@@ -51,7 +51,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/crowdsecurity/machineid"
 )
 
 func main() {
