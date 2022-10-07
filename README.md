@@ -18,14 +18,10 @@
 Get the library with
 
 ```bash
-go get github.com/denisbrodbeck/machineid
+go get github.com/crowdsecurity/machineid
 ```
 
 You can also add the cli app directly to your `$GOPATH/bin` with
-
-```bash
-go get github.com/denisbrodbeck/machineid/cmd/machineid
-```
 
 ## Usage
 
@@ -176,6 +172,7 @@ or
 ## Credits
 
 The Go gopher was created by [Denis Brodbeck](https://github.com/denisbrodbeck) with [gopherize.me](https://gopherize.me/), based on original artwork from [Renee French](http://reneefrench.blogspot.com/).
+This work is derived from Denis Brodbeck's [original repository](https://github.com/denisbrodbeck/machineid)
 
 ## License
 
