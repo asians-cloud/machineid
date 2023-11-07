@@ -16,7 +16,7 @@
 Get the library with
 
 ```bash
-go get github.com/crowdsecurity/machineid
+go get github.com/asians-cloud/machineid
 ```
 
 You can also add the cli app directly to your `$GOPATH/bin` with
@@ -29,7 +29,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/crowdsecurity/machineid"
+  "github.com/asians-cloud/machineid"
 )
 
 func main() {
@@ -49,7 +49,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/crowdsecurity/machineid"
+  "github.com/asians-cloud/machineid"
 )
 
 func main() {
@@ -107,7 +107,7 @@ import (
   "crypto/hmac"
   "crypto/sha256"
   "fmt"
-  "github.com/crowdsecurity/machineid"
+  "github.com/asians-cloud/machineid"
 )
 
 const appKey = "WowSuchNiceApp"

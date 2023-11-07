@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/crowdsecurity/machineid"
+	"github.com/asians-cloud/machineid"
 )
 
 func Example() {

@@ -1,4 +1,4 @@
-module github.com/crowdsecurity/machineid
+module github.com/asians-cloud/machineid
 
 go 1.17
 
